@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="10dp">
+        <TextView
+            android:id="@+id/notification_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Compat.Notification.Title"
+            tools:text="Islamic radio"/>
+
+        <TextView
+            android:id="@+id/notification_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Compat.Notification.Info"
+            tools:text="تلاوات قصيرة ميزة"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/notification_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_pause"
+                android:paddingEnd="5dp"/>
+            <ImageView
+                android:id="@+id/notification_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:src="@drawable/ic_stop"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

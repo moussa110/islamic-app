@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Quran Application</string>
+
+    <string-array name="Tasabeh">
+        <item>سبحان الله</item>
+        <item>استغفر الله</item>
+        <item>الحمد لله</item>
+        <item>الله اكبر</item>
+        <item>اللهم صل علي سيدنا محمد</item>
+    </string-array>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="channel_name">stream radio channel</string>
+    <string name="channel_description">this channel used to display radio notification</string>
+</resources>
